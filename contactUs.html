@@ -5,10 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
+    <h2 style="text-align:center;">Thistle and Heather Inn</h2>
+    <hr>
+    <ul style="list-style:none;">
+        <a href="index.html">
+            <li "style=display:inline;">Home</li>
+        </a>
+        <a href="menu.html">
+            <li "style=display:inline;">Menu</li>
+        </a>
+        <a href="contactUs.html">
+            <li "style=display:inline;">Contact Us</li>
+        </a>
+    </ul>
+    <hr>
+    <form id="contact-form">
+        Name: <input type="text" name="name"><br><br> Email: <input type="text" name="email"><br><br> Phone: <input type="text" name="phone"><br><br> Reason for Inquiry:
+        <select name="reason">
+            <option value="catering" selected>Catering</option>
+            <option value="privateParty">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br><br> Additional Information: <input type="textarea" name="addlinfo">
+        <br><br> Have you been to the restaurant?
+        <input type="radio" name="vist" value="Yes" checked>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="vist" value="No">
+        <label for="No">No</label>
+        <br><br> Best days to contact you:
+        <input type="checkbox" id="m" name="days" value="m">
+        <label for="m">M</label>
+        <input type="checkbox" id="t" name="days" value="t">
+        <label for="t">T</label>
+        <input type="checkbox" id="w" name="days" value="w">
+        <label for="w">W</label>
+        <input type="checkbox" id="th" name="days" value="th">
+        <label for="th">Th</label>
+        <input type="checkbox" id="f" name="days" value="f">
+        <label for="f">F</label>
+        <br><br>
+
+    </form>
+    <hr>
+    <div id="footer-main">
+        <footer>
+            <p>Main Road, Arisaig PH39 4NH, UK</p>
+            <p>+44 1687 450210</p>
+        </footer>
+    </div>
 
 </body>
 
