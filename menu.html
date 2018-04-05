@@ -5,25 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #menu {
+            background-color: rgb(152, 240, 144);
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgb(152, 240, 144);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
     <title>Menu</title>
 </head>
 
 <body>
-    <h2 style="text-align:center;">Thistle and Heather Inn</h2>
+    <h2 id="main-header">The Thistle and Heather Inn</h2>
     <hr>
-    <ul style="list-style:none;">
-        <a href="index.html">
-            <li "style=display:inline;">Home</li>
-        </a>
-        <a href="menu.html">
-            <li "style=display:inline;">Menu</li>
-        </a>
-        <a href="contactUs.html">
-            <li "style=display:inline;">Contact Us</li>
-        </a>
-    </ul>
+    <a href="index.html">
+        Home
+</a>
+    <a href="menu.html">
+        Menu
+</a>
+    <a href="contactUs.html">
+        Contact Us
+</a>
     <hr>
-    <div>
+    <div id="menu">
         <div>
             <div>A</div>
             <div>B</div>
@@ -36,6 +51,29 @@
         </div>
     </div>
     <hr>
+    <div id="bev-table">
+        <table>
+            <tr>
+                <th colspan="2">Beverages</th>
+            </tr>
+            <tr>
+                <td>Root Beer</td>
+                <td>$3.00</td>
+            </tr>
+            <tr>
+                <td>Bottled Water</td>
+                <td>$1.25</td>
+            </tr>
+            <tr>
+                <td>Lemonade</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Iced Tea</td>
+                <td>$1.25</td>
+            </tr>
+        </table>
+    </div>
     <div id="footer-main">
         <footer>
             <p>Main Road, Arisaig PH39 4NH, UK</p>

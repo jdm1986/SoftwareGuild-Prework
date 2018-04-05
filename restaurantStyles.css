@@ -1,0 +1,28 @@
+#main-header {
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+}
+
+#main-body-content {
+    background-color: rgb(152, 240, 144);
+}
+
+#main-copy {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(152, 240, 144))
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(122, 190, 144)
+}
