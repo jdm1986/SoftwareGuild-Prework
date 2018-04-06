@@ -7,8 +7,10 @@
     background-color: rgb(152, 240, 144);
 }
 
-#main-copy {
+#main-copy-hd {
     text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 20px;
 }
 
 a {
@@ -25,4 +27,16 @@ a:hover {
 
 a:active {
     color: rgb(122, 190, 144)
+}
+
+.nav {
+    font-family: 'IM Fell English SC', serif;
+}
+
+.navbar {
+    background-color: rgb(152, 240, 144);
+}
+
+.footer {
+    text-align: center;
 }

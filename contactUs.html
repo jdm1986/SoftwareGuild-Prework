@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-
+        #contact-form {
+            text-align: center;
+            font-family: 'IM Fell English SC', serif;
+            font-size: 20px;
+        }
     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
     <title>Contact Us</title>
@@ -16,51 +21,61 @@
 <body>
     <h2 id="main-header">The Thistle and Heather Inn</h2>
     <hr>
-    <a href="index.html">
-        Home
-</a>
-    <a href="menu.html">
-        Menu
-</a>
-    <a href="contactUs.html">
-        Contact Us
-</a>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="active"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
     <hr>
-    <form id="contact-form">
-        Name: <input type="text" name="name"><br><br> Email: <input type="text" name="email"><br><br> Phone: <input type="text" name="phone"><br><br> Reason for Inquiry:
-        <select name="reason">
-            <option value="catering" selected>Catering</option>
-            <option value="privateParty">Private Party</option>
-            <option value="feedback">Feedback</option>
-            <option value="other">Other</option>
-        </select><br><br> Additional Information: <input type="textarea" name="addlinfo">
-        <br><br> Have you been to the restaurant?
-        <input type="radio" name="vist" value="Yes" checked>
-        <label for="Yes">Yes</label>
-        <input type="radio" name="vist" value="No">
-        <label for="No">No</label>
-        <br><br> Best days to contact you:
-        <input type="checkbox" id="m" name="days" value="m">
-        <label for="m">M</label>
-        <input type="checkbox" id="t" name="days" value="t">
-        <label for="t">T</label>
-        <input type="checkbox" id="w" name="days" value="w">
-        <label for="w">W</label>
-        <input type="checkbox" id="th" name="days" value="th">
-        <label for="th">Th</label>
-        <input type="checkbox" id="f" name="days" value="f">
-        <label for="f">F</label>
-        <br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <form id="contact-form">
+                    Name: <input type="text" name="name"><br><br> Email: <input type="text" name="email"><br><br> Phone: <input type="text" name="phone"><br><br> Reason for Inquiry:
+                    <select name="reason">
+                                <option value="catering" selected>Catering</option>
+                                <option value="privateParty">Private Party</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select><br><br> Additional Information: <input type="textarea" name="addlinfo">
+                    <br><br> Have you been to the restaurant?
+                    <input type="radio" name="vist" value="Yes" checked>
+                    <label for="Yes">Yes</label>
+                    <input type="radio" name="vist" value="No">
+                    <label for="No">No</label>
+                    <br><br> Best days to contact you:
+                    <input type="checkbox" id="m" name="days" value="m">
+                    <label for="m">M</label>
+                    <input type="checkbox" id="t" name="days" value="t">
+                    <label for="t">T</label>
+                    <input type="checkbox" id="w" name="days" value="w">
+                    <label for="w">W</label>
+                    <input type="checkbox" id="th" name="days" value="th">
+                    <label for="th">Th</label>
+                    <input type="checkbox" id="f" name="days" value="f">
+                    <label for="f">F</label>
+                    <br><br>
+                    <input type="submit" value="Send Request">
 
-    </form>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
     <hr>
-    <div id="footer-main">
+    <div class="footer navbar-fixed-bottom" id="footer-main ">
         <footer>
             <p>Main Road, Arisaig PH39 4NH, UK</p>
             <p>+44 1687 450210</p>
         </footer>
     </div>
-
+    <script src="restaurant.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

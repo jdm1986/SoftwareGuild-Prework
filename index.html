@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
     <title>Thistle and Heather Inn</title>
@@ -13,35 +14,44 @@
 <body>
     <h2 id="main-header">The Thistle and Heather Inn</h2>
     <hr>
-    <a href="index.html">
-        Home
-</a>
-    <a href="menu.html">
-        Menu
-</a>
-    <a href="contactUs.html">
-        Contact Us
-</a>
-    <hr>
-    <div id="main-body-content">
-        <div id="header-img">
-            <img style="display: block; margin: auto; padding: auto;" src="images/thistleclover.jpg " alt="The Thistle and Heather Inn " height="150 ">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
         </div>
-        <div id="main-copy " style="width:400px ">
-            <h3>The Thistle and Heather Inn</h3>
-            <p>Nestled in the heart of the Highlands, the Thistle and Heather Inn offers traditional Scottish fare with a view. Enjoy wild boar, wood pigeon, and wild pheasant paired with local produce and bread, alongside the finest whiskies, ales, lagers,
-                and ciders the Highlands and Hebrides have to offer. </p>
+    </nav>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="main-body-content">
+                    <div id="header-img">
+                        <img style="display: block; margin: auto; padding: auto;" src="images/thistleclover.jpg " alt="The Thistle and Heather Inn " height="150 ">
+                    </div>
+                    <div id="main-copy" style="width:400px; display: block; margin: auto; padding: auto;">
+                        <h3 id="main-copy-hd">The Thistle and Heather Inn</h3>
+                        <p>Nestled in the heart of the Highlands, the Thistle and Heather Inn offers traditional Scottish fare with a view. Enjoy wild boar, wood pigeon, and wild pheasant paired with local produce and bread, alongside the finest whiskies,
+                            ales, lagers, and ciders the Highlands and Hebrides have to offer. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="footer navbar-fixed-bottom" id="footer-main ">
+            <footer>
+                <p>Main Road, Arisaig PH39 4NH, UK</p>
+                <p>+44 1687 450210</p>
+            </footer>
         </div>
     </div>
 
-    <hr>
-    <div id="footer-main ">
-        <footer>
-            <p>Main Road, Arisaig PH39 4NH, UK</p>
-            <p>+44 1687 450210</p>
-        </footer>
-    </div>
-
+    <script src="restaurant.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

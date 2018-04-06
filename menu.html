@@ -8,18 +8,23 @@
     <style>
         #menu {
             background-color: rgb(152, 240, 144);
+            font-family: 'IM Fell English SC', serif;
+            font-size: 20px;
         }
         
         table,
         th,
         td {
             border: 1px solid black;
+            font-family: 'IM Fell English SC', serif;
+            font-size: 20px;
         }
         
         tr:nth-child(even) {
             background-color: rgb(152, 240, 144);
         }
     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
     <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
     <title>Menu</title>
@@ -28,59 +33,95 @@
 <body>
     <h2 id="main-header">The Thistle and Heather Inn</h2>
     <hr>
-    <a href="index.html">
-        Home
-</a>
-    <a href="menu.html">
-        Menu
-</a>
-    <a href="contactUs.html">
-        Contact Us
-</a>
-    <hr>
-    <div id="menu">
-        <div>
-            <div>A</div>
-            <div>B</div>
-            <div>C</div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
         </div>
-        <div>
-            <div>D</div>
-            <div>E</div>
-            <div>F</div>
-        </div>
-    </div>
+    </nav>
     <hr>
-    <div id="bev-table">
-        <table>
-            <tr>
-                <th colspan="2">Beverages</th>
-            </tr>
-            <tr>
-                <td>Root Beer</td>
-                <td>$3.00</td>
-            </tr>
-            <tr>
-                <td>Bottled Water</td>
-                <td>$1.25</td>
-            </tr>
-            <tr>
-                <td>Lemonade</td>
-                <td>$1.00</td>
-            </tr>
-            <tr>
-                <td>Iced Tea</td>
-                <td>$1.25</td>
-            </tr>
-        </table>
+
+    <div class="container-fluid">
+        <div id="menu">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hare</h5>
+                    <p>Blah blah blah</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="bev-table">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table>
+                                    <tr>
+                                        <th colspan="2">Beverages</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Root Beer</td>
+                                        <td>$3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bottled Water</td>
+                                        <td>$1.25</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lemonade</td>
+                                        <td>$1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Iced Tea</td>
+                                        <td>$1.25</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
-    <div id="footer-main">
+    </div>
+    <div class="footer navbar-fixed-bottom" id="footer-main ">
         <footer>
             <p>Main Road, Arisaig PH39 4NH, UK</p>
             <p>+44 1687 450210</p>
         </footer>
     </div>
-
+    <script src="restaurant.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
