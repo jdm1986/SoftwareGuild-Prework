@@ -1,16 +1,27 @@
+body {
+    background-color: #EDF5E1;
+}
+
 #main-header {
     font-family: 'IM Fell English SC', serif;
     text-align: center;
 }
 
 #main-body-content {
-    background-color: rgb(152, 240, 144);
+    background-color: #5CDB95;
+    margin-bottom: 40px;
 }
 
 #main-copy-hd {
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     font-size: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    background-color: #5CDB95;
 }
 
 a {
@@ -34,9 +45,26 @@ a:active {
 }
 
 .navbar {
-    background-color: rgb(152, 240, 144);
+    background-color: #5CDB95;
 }
 
 .footer {
     text-align: center;
+}
+
+footer {
+    background-color: #5CDB95;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+.jumbotron {
+    padding-bottom: 15px;
+}
+
+#menu {
+    margin-bottom: 40px;
 }
