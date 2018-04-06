@@ -18,6 +18,11 @@ body {
     font-size: 20px;
 }
 
+hr {
+    margin: 5px 0px;
+    border-color: #000;
+}
+
 .jumbotron {
     text-align: center;
     font-family: 'IM Fell English SC', serif;
@@ -29,7 +34,7 @@ a {
 }
 
 a:visited {
-    color: rgb(3, 10, 144))
+    color: rgb(3, 10, 144);
 }
 
 a:hover {
@@ -37,7 +42,7 @@ a:hover {
 }
 
 a:active {
-    color: rgb(122, 190, 144)
+    color: #EDF5E1;
 }
 
 .nav {
@@ -46,6 +51,11 @@ a:active {
 
 .navbar {
     background-color: #5CDB95;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: #000;
 }
 
 .footer {
