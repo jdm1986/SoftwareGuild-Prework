@@ -29,7 +29,7 @@ a {
 }
 
 a:visited {
-    color: rgb(152, 240, 144))
+    color: rgb(3, 10, 144))
 }
 
 a:hover {
@@ -55,6 +55,7 @@ a:active {
 footer {
     background-color: #5CDB95;
     margin-top: 40px;
+    margin-bottom: -10px;
 }
 
 table {
